@@ -1,0 +1,75 @@
+{
+  "name" : "intvmp",
+  "title" : "Interverse Modpack",
+  "gameVersion" : "1.10.2",
+  "features" : [
+    {
+      "properties" : {
+        "name" : "Chunk Animator",
+        "description" : "Animates chunks as they load in; Recommended, as it is not too laggy unless your computer is trash-tier.",
+        "recommendation" : "starred",
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/ChunkAnimator-MC1.9.4-1.2.jar"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Morpheus",
+        "description" : "You can add morpheus to your client if you want to do a LAN server, this is useless otherwise",
+        "recommendation" : null,
+        "selected" : false
+      },
+      "files" : {
+        "include" : [
+          "mods/Morpheus-1.10.2-3.1.9.jar"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Sound Filters",
+        "description" : "Adds reverb and other sound features to minecraft. This mod is really nice and I would recommend it, but you can disable it if you don't like it.",
+        "recommendation" : "starred",
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/SoundFilters-0.9_for_1.9.4.jar"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Inventory Tweaks",
+        "description" : "Some people may not like how inventory tweaks manages the inventory.",
+        "recommendation" : "starred",
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/InventoryTweaks-1.61-58.jar"
+        ],
+        "exclude" : [ ]
+      }
+    }
+  ],
+  "userFiles" : {
+    "include" : [
+      "options.txt",
+      "optionsshaders.txt"
+    ],
+    "exclude" : [ ]
+  },
+  "launch" : {
+    "flags" : [
+      "-Dfml.ignoreInvalidMinecraftCertificates=true"
+    ]
+  }
+}
