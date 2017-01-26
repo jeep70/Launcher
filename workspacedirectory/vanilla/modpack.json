@@ -1,0 +1,18 @@
+{
+  "name" : "vanilla",
+  "title" : "Vanilla",
+  "gameVersion" : "1.11",
+  "features" : [ ],
+  "userFiles" : {
+    "include" : [
+      "options.txt",
+      "optionsshaders.txt"
+    ],
+    "exclude" : [ ]
+  },
+  "launch" : {
+    "flags" : [
+      "-Dfml.ignoreInvalidMinecraftCertificates=true"
+    ]
+  }
+}
