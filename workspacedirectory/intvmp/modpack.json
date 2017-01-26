@@ -26,7 +26,7 @@
       },
       "files" : {
         "include" : [
-          "mods/Morpheus-1.10.2-3.1.9.jar"
+          "mods/Morpheus-1.10.2-3.1.13.jar"
         ],
         "exclude" : [ ]
       }
