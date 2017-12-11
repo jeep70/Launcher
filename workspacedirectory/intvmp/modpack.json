@@ -5,27 +5,14 @@
   "features" : [
     {
       "properties" : {
-        "name" : "Chunk Animator",
-        "description" : "Animates chunks as they load in; Recommended, as it is not too laggy unless your computer is trash-tier.",
-        "recommendation" : "starred",
-        "selected" : true
-      },
-      "files" : {
-        "include" : [
-          "mods/ChunkAnimator-MC1.9.4-1.2.jar"
-        ],
-        "exclude" : [ ]
-      }
-    },
-    {
-      "properties" : {
-        "name" : "Morpheus",
-        "description" : "You can add morpheus to your client if you want to do a LAN server, this is useless otherwise",
+        "name" : "LAN Server Package",
+        "description" : "Includes Morpheus for sleep voting and Login Shield",
         "recommendation" : null,
         "selected" : false
       },
       "files" : {
         "include" : [
+          "mods/Login_Shield-1.10.2-19-gd16e7e0.jar",
           "mods/Morpheus-1.10.2-3.1.13.jar"
         ],
         "exclude" : [ ]
@@ -35,7 +22,7 @@
       "properties" : {
         "name" : "Sound Filters",
         "description" : "Adds reverb and other sound features to minecraft. This mod is really nice and I would recommend it, but you can disable it if you don't like it.",
-        "recommendation" : "starred",
+        "recommendation" : null,
         "selected" : true
       },
       "files" : {
@@ -47,14 +34,70 @@
     },
     {
       "properties" : {
-        "name" : "Inventory Tweaks",
-        "description" : "Some people may not like how inventory tweaks manages the inventory.",
+        "name" : "Blur",
+        "description" : "Adds a blur effect behind inventories.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/Blur-1.0.1-9.jar"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Mob Dismemberment",
+        "description" : "Have mobs fall into a bunch of body parts (includes blood effects)",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/MobDismemberment-1.10.2-6.0.0.jar"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Better FPS",
+        "description" : "Helps improve your FPS in the game, you can remove it if you don't need it or don't like the extra menu.",
         "recommendation" : "starred",
         "selected" : true
       },
       "files" : {
         "include" : [
-          "mods/InventoryTweaks-1.61-58.jar"
+          "mods/BetterFps-1.4.5-1.10.jar"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Borderless Window",
+        "description" : "Allows for easier alt-tabbing in borderless windowed mode.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/FullscreenWindowed-1.10.2-1.5.0.jar"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Relaxed Dynamic Surroundings",
+        "description" : "Checking this will disable a lot of Dynamic Surroundings' features, including some sounds. (You can change this more to your liking in the mod options menu in-game).",
+        "recommendation" : null,
+        "selected" : false
+      },
+      "files" : {
+        "include" : [
+          "config/dsurround/dsurround.cfg"
         ],
         "exclude" : [ ]
       }
