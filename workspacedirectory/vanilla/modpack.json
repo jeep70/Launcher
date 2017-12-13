@@ -1,7 +1,7 @@
 {
   "name" : "vanilla",
   "title" : "Vanilla",
-  "gameVersion" : "1.11",
+  "gameVersion" : "1.12.2",
   "features" : [ ],
   "userFiles" : {
     "include" : [
