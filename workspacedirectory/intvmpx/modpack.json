@@ -2,7 +2,37 @@
   "name" : "intvmpx",
   "title" : "Interverse Modpack X",
   "gameVersion" : "1.12.2",
-  "features" : [ ],
+  "features" : [
+    {
+      "properties" : {
+        "name" : "LAN Server Package",
+        "description" : "Include Login Shield and Morpheus, only useful for running LAN servers",
+        "recommendation" : null,
+        "selected" : false
+      },
+      "files" : {
+        "include" : [
+          "mods/Login_Shield-1.12.2-3-g7c6e7ac.jar",
+          "mods/Morpheus-1.12-3.3.2.jar"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Borderless Fullscreen",
+        "description" : "If you have issues with borderless fullscreen, you can uncheck this",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/FullscreenWindowed-1.12-1.6.0.jar"
+        ],
+        "exclude" : [ ]
+      }
+    }
+  ],
   "userFiles" : {
     "include" : [
       "options.txt",
