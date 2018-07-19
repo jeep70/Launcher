@@ -23,10 +23,10 @@ public class Configuration {
 
     private boolean offlineEnabled = false;
     private String jvmPath;
-    private String jvmArgs;
+    private String jvmArgs = "-XX:+UseG1GC -Dsun.rmi.dgc.server.gcInterval=2147483646 -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M";
     private int minMemory = 1024;
     private int maxMemory = 0; // Updated in Launcher
-    private int permGen = 256;
+    private int permGen = 0;
     private int windowWidth = 854;
     private int widowHeight = 480;
     private boolean proxyEnabled = false;
